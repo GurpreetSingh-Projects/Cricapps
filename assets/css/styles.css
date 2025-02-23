@@ -1,0 +1,370 @@
+.roboto-thin {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.roboto-light {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", system-ui;
+  font-weight: 900;
+  font-style: italic;
+}
+
+* {
+  font-family: "Roboto", system-ui;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none !important;
+  /* transition: all 0.5s ease-in-out; */
+}
+.mainContainer {
+  background: url("/assets/img/header_casino_desktop5.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+  padding: 0px 8%;
+}
+.container2 {
+  padding: 0px 10%;
+  box-sizing: border-box;
+}
+.topPara {
+  font-weight: 300;
+  font-size: 16px;
+}
+.lastUpdated {
+  color: #ff856c;
+  color: 15px;
+  font-weight: 300;
+}
+.badgeImg {
+  width: 30px;
+  margin-right: 5px;
+}
+.fs-11px {
+  font-size: 14px;
+  font-weight: 500;
+}
+.text-capitalize {
+  text-transform: uppercase !important;
+}
+.faj {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.upi {
+  text-transform: capitalize;
+  margin-top: 5px;
+  font-weight: 300;
+  font-size: 12px;
+}
+.triangle1 {
+  position: absolute;
+  top: -45px;
+  bottom: 0.5rem;
+  left: -5px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 110px 0 110px 45px;
+  border-color: transparent transparent transparent black;
+  transform: rotate(0deg);
+  z-index: 3;
+}
+.triangle2 {
+  position: absolute;
+  top: -45px;
+  bottom: 0.5rem;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 110px 0 110px 45px;
+  border-color: transparent transparent transparent white;
+  transform: rotate(0deg);
+  z-index: 1;
+}
+.triangle3 {
+  position: absolute;
+  top: -45px;
+  bottom: 0.5rem;
+  left: 8px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 110px 0 110px 45px;
+  border-color: transparent transparent transparent black;
+  transform: rotate(0deg);
+  z-index: 0;
+}
+.customBtn {
+  border: none;
+}
+.customBtn span {
+  color: white;
+}
+.customBtn {
+  height: 42px;
+  width: 80%;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 2px 4px 0 rgba(28, 44, 64, 0.17);
+  box-shadow: 0 2px 4px 0 rgba(28, 44, 64, 0.17);
+  background-color: #83cd00;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #fff;
+}
+.customBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.customBtn span:after {
+  content: "\BB";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  font-size: 16px;
+}
+.customBtn.mobile {
+  width: 100%;
+  -webkit-box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.22);
+  box-shadow: 0 5px 7px 0 rgba(0, 0, 0, 0.22);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#77ba00),
+    to(#94e700)
+  );
+  background-image: linear-gradient(90deg, #77ba00, #94e700);
+}
+.customBtn.cross-banner {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#f8a800),
+    to(#fbe000)
+  );
+  background: linear-gradient(90deg, #f8a800 0, #fbe000);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(251, 224, 0, 0.18824);
+  box-shadow: 0 5px 10px 0 rgba(251, 224, 0, 0.18824);
+}
+.customBtn.cross-banner span {
+  color: #0a0a0a;
+}
+.customBtn.rounded {
+  border-radius: 25px;
+}
+.customBtn:focus,
+.customBtn:hover {
+  text-decoration: none;
+  -webkit-box-shadow: 0 3px 8px 0 rgba(28, 44, 64, 0.32);
+  box-shadow: 0 3px 8px 0 rgba(28, 44, 64, 0.32);
+  background-color: #95df11;
+  border: 1px solid hsla(0, 0%, 100%, 0.31);
+  color: #fff;
+}
+.customBtn:focus span,
+.customBtn:hover span {
+  padding-right: 15px;
+}
+.customBtn:focus span:after,
+.customBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.visit {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+.visit::after {
+  content: "\bb";
+  margin-left: 5px;
+}
+.webImg {
+  object-fit: contain;
+  overflow: hidden;
+}
+.webImg img {
+  width: 120px;
+}
+.imgContainer img {
+  width: 60px;
+}
+.imgContainer2 .img-fluid {
+  width: 150px;
+}
+.shadowContainer .card {
+  box-shadow: 0px 0px 10px #c7c7c7;
+}
+.footer {
+  font-size: 12px;
+}
+@media only screen and (max-width: 900px) {
+  .mainContainer {
+    background: url("/assets/img/header_casino_desktop5.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    padding: 0px 10px;
+  }
+  .fs-11px,
+  .upi {
+    font-size: 8px;
+    font-weight: 500;
+    text-wrap: nowrap;
+    padding: 0px 10px;
+  }
+  .webImg img {
+    width: 60px;
+  }
+  .triangle1 {
+    position: absolute;
+    top: -57px;
+    bottom: 0.5rem;
+    left: -30px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 110px 0 110px 45px;
+    border-color: transparent transparent transparent black;
+    transform: rotate(0deg);
+    z-index: 3;
+  }
+  .triangle2 {
+    position: absolute;
+    top: -57px;
+    bottom: 0.5rem;
+    left: -25px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 110px 0 110px 45px;
+    border-color: transparent transparent transparent white;
+    transform: rotate(0deg);
+    z-index: 1;
+  }
+  .triangle3 {
+    position: absolute;
+    top: -57px;
+    bottom: 0.5rem;
+    left: -20px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 110px 0 110px 45px;
+    border-color: transparent transparent transparent black;
+    transform: rotate(0deg);
+    z-index: 0;
+  }
+  .rating {
+    object-fit: contain;
+  }
+  .ratingMob {
+    padding: 0px 10px;
+    padding-left: 20px;
+  }
+  .ratingNum {
+    font-size: 10px;
+    margin-bottom: 0px;
+  }
+  .customBtn {
+    height: 32px;
+  }
+  .customBtn * {
+    font-size: 10px !important;
+  }
+  .customBtn span:after {
+    content: "\BB";
+    position: absolute;
+    opacity: 0;
+    top: -5px;
+    right: -20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-size: 16px;
+  }
+}
